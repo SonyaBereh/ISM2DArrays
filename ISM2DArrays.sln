@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISM2DArrays", "ISM2DArrays\ISM2DArrays.csproj", "{BD544E7F-D638-45D9-A35D-7997F71165AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Determinant", "ConsoleApplication1\Determinant.csproj", "{DE4BB985-B8EC-433B-A0A8-DEA4E1D8DA32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{BD544E7F-D638-45D9-A35D-7997F71165AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD544E7F-D638-45D9-A35D-7997F71165AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD544E7F-D638-45D9-A35D-7997F71165AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4BB985-B8EC-433B-A0A8-DEA4E1D8DA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4BB985-B8EC-433B-A0A8-DEA4E1D8DA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4BB985-B8EC-433B-A0A8-DEA4E1D8DA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4BB985-B8EC-433B-A0A8-DEA4E1D8DA32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

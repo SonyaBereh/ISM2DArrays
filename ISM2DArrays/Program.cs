@@ -8,6 +8,7 @@ namespace ISM2DArrays
 {
     class Program
     {
+        
         static double[,] MultipleMatr(double[,] matr1, double[,] matr2)
         {
             double[,] matr = new double[matr1.GetLength(0), matr2.GetLength(1)];
@@ -83,8 +84,9 @@ namespace ISM2DArrays
             WriteMatr(matr2);
             matr3 = MultipleMatr(matr1, matr2);
             if (matr3 == null)
-                Console.WriteLine("Ошибка, невозможно перемножить матрицы!");
+            Console.WriteLine("Ошибка, невозможно перемножить матрицы!");
             WriteMatr(matr3);
+            
         }
     }
 }
